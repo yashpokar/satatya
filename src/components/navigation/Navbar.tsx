@@ -21,7 +21,8 @@ export default function Navbar() {
       <Container>
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <Building2 className={`h-8 w-8 ${isScrolled ? 'text-gray-900' : 'text-white'}`} />
+            <img src="/264519810_439465427741321_693154629937555655_n.jpg" alt="Satatya Architect" className="w-8 h-8" />
+
             <span className={`font-bold text-xl ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
               Satatya Architect
             </span>

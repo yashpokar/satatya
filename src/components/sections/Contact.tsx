@@ -11,7 +11,7 @@ export default function Contact() {
           title="Get in Touch"
           subtitle="Let's bring your architectural vision to life"
         />
-        
+
         <div className="grid lg:grid-cols-2 gap-16">
           <div className="space-y-12">
             <div>
@@ -21,17 +21,17 @@ export default function Contact() {
                   {
                     icon: <Mail className="h-6 w-6" />,
                     title: "Email",
-                    content: "info@satatyaarchitect.com"
+                    content: "hello@satatyaarchitect.com"
                   },
                   {
                     icon: <Phone className="h-6 w-6" />,
                     title: "Phone",
-                    content: "+1 (555) 123-4567"
+                    content: "+91 (992) 504-6991"
                   },
                   {
                     icon: <MapPin className="h-6 w-6" />,
                     title: "Office",
-                    content: "123 Design Street, Creative City, 12345"
+                    content: "C-1201, Ganesh Glory - 11, Godhrej Garden City Road, S G Highway, Ahmedabad, Gujarat, India"
                   }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
